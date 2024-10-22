@@ -52,13 +52,37 @@ export const categories = [
   
   {
     img: "assets/barn_cat.jpg",
-    label: "Barns",
+    label: "1Bhk",
     icon: <GiBarn />,
     description: "This property is in a barn!",
   },
   {
     img: "assets/lux_cat.jpg",
-    label: "Luxury",
+    label: "3Bhk Duplex",
+    icon: <IoDiamond />,
+    description: "This property is brand new and luxurious!",
+  },
+  {
+    img: "assets/lux_cat.jpg",
+    label: "3Bhk Duplex",
+    icon: <IoDiamond />,
+    description: "This property is brand new and luxurious!",
+  },
+  {
+    img: "assets/lux_cat.jpg",
+    label: "2Bhk Duplex",
+    icon: <IoDiamond />,
+    description: "This property is brand new and luxurious!",
+  },
+  {
+    img: "assets/lux_cat.jpg",
+    label: "Flats",
+    icon: <IoDiamond />,
+    description: "This property is brand new and luxurious!",
+  },
+  {
+    img: "assets/lux_cat.jpg",
+    label: "Villa",
     icon: <IoDiamond />,
     description: "This property is brand new and luxurious!",
   },

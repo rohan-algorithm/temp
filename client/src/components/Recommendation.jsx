@@ -3,6 +3,7 @@ import { categories } from "../data";
 import "../styles/Listings.scss";
 import ListingCard from "./ListingCard";
 import Loader from "./Loader";
+import axios from "axios";
 
 const BASEURL = process.env.REACT_APP_BASE_URL;
 
@@ -16,9 +17,10 @@ const Listings = () => {
     try {
         
 
-        const response = await fetch(`${BASEURL}/properties/recommendations/${userId}`, {
-          method: 'GET',
-        });
+
+      const response = await axios.get(`${BASEURL}/properties/recommendations/${userId}`, {
+
+      });
 
       if (!response.ok) {
         throw new Error('Failed to fetch recommendations');
