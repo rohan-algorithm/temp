@@ -41,7 +41,7 @@ const LoginPage = () => {
         const user = JSON.stringify(loggedIn.user)
         localStorage.setItem("user", user) 
         console.log("Login successful "+loggedIn.user)
-        navigate("/")
+        navigate("/home")
       }
 
     } catch (err) {
